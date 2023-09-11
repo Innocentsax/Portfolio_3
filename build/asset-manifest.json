@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1b2485ef.css",
+    "main.js": "/static/js/main.441a3fd0.js",
+    "static/media/sidebar.png": "/static/media/sidebar.28a2a122266c14282820.png",
+    "static/media/musicapp.png": "/static/media/musicapp.39e60ae1563822bc526d.png",
+    "static/media/boy.png": "/static/media/boy.1209370986ca0ca8d811.png",
+    "static/media/amazon.png": "/static/media/amazon.1abaa50d9557000e4bb2.png",
+    "static/media/ecommerce.png": "/static/media/ecommerce.d1783c7563728cb0615c.png",
+    "static/media/hoc.png": "/static/media/hoc.d8b5c9fa846966ab11d1.png",
+    "static/media/profile4.jpg": "/static/media/profile4.c20c3d4e4f6e18332350.jpg",
+    "static/media/resume.pdf": "/static/media/resume.85de26151d0ae11df968.pdf",
+    "static/media/profile3.jpg": "/static/media/profile3.b73d51ba9d7698a5d802.jpg",
+    "static/media/glassesimoji.png": "/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/Shopify.png": "/static/media/Shopify.cf375ec05cceaac3e45d.png",
+    "static/media/fiverr.png": "/static/media/fiverr.cf375ec05cceaac3e45d.png",
+    "static/media/Upwork.png": "/static/media/Upwork.e156d80bc0472cedf955.png",
+    "static/media/Facebook.png": "/static/media/Facebook.ecb5f8b88d5641476f59.png",
+    "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/index.html",
+    "main.1b2485ef.css.map": "/static/css/main.1b2485ef.css.map",
+    "main.441a3fd0.js.map": "/static/js/main.441a3fd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b2485ef.css",
+    "static/js/main.441a3fd0.js"
+  ]
+}
