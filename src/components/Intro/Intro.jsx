@@ -30,15 +30,12 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
           <span>Innocent Udo</span>
           <span>
-            Experienced Software Engineer with expertise in Java, Spring Boot,{" "}
+            I’m Innocent Udo, a Software Engineer at Accenture, based, <br />
+            in Kuala Lumpur with expertise in Java, Spring Boot, and
             <br />
-            and Microservices, delivering secure and scalable solutions in
-            Fintech and Banking.
+            Microservices. I have experience in Fintech and Banking,
             <br />
-            Skilled in optimizing backend systems, enhancing efficiency, and
-            <br />
-            driving innovation. Passionate about leveraging technology to
-            achieve business success.
+            optimizing backend systems for scalability and productivity.
             <br />
           </span>
         </div>
