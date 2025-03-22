@@ -7,7 +7,7 @@ import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import {Link} from 'react-scroll'
+import { Link } from "react-scroll";
 const Works = () => {
   // context
   const theme = useContext(themeContext);
@@ -25,14 +25,21 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-          <br />
-            Software Engineer - Decagon Institute<br />
+            <br />
+            Software Engineer - Accenture | Malaysia.
+            <br />
             ⭐⭐⭐
             <br />
-            Software Developer - ALX Africa<br />
+            Application Development Analyst - UOB Bank | Singapore.
+            <br />
             ⭐⭐⭐
             <br />
-            Python Developer(Intern) - Holberton School<br />
+            Software Developer - Zenith Bank Plc | Nigeria.
+            <br />
+            ⭐⭐⭐
+            <br />
+            Java Developer - Decagon Institute | Nigeria.
+            <br />
             ⭐⭐⭐
           </spane>
           <Link to="contact" smooth={true} spy={true}>

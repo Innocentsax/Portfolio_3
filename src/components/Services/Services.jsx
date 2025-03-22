@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from "./resume.pdf";
 
 const Services = () => {
   // context
@@ -20,18 +20,22 @@ const Services = () => {
   };
 
   return (
-    <div className="services" id="services"><br /> <br /> 
+    <div className="services" id="services">
+      <br /> <br />
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-        Experienced Java Developer: Crafting efficient, scalable,<br /> 
-        and innovative Java solutions to power your applications.<br /> 
-        Leveraging expertise in Java, Spring Boot, and backend <br />development, 
-        I bring a passion for clean code and a <br />commitment to delivering
-        high-performance <br />software that meets your business needs.
+          Experienced Java Developer: Crafting efficient, scalable,
+          <br />
+          and innovative Java solutions to power your applications.
+          <br />
+          Leveraging expertise in Java, Spring Boot, and backend <br />
+          development, I bring a passion for clean code and a <br />
+          commitment to delivering high-performance <br />
+          software that meets your business needs.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -49,7 +53,9 @@ const Services = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Java Developer"}
-            detail={"Core Java, NIO, Thread, Concurrency, Data Structure, Algorithm."}
+            detail={
+              "Core Java, NIO, Thread, Concurrency, Data Structure, Algorithm."
+            }
           />
         </motion.div>
         {/* second card */}
@@ -61,7 +67,9 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Spring Framework Developer"}
-            detail={"Spring Security, Spring Core, Spring AOP, Spring MVC, ORM, Web-flow"}
+            detail={
+              "Spring Security, Spring Core, Spring AOP, Spring MVC, ORM, Web-flow"
+            }
           />
         </motion.div>
         {/* 3rd */}

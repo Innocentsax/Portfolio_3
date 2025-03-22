@@ -30,11 +30,16 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
           <span>Innocent Udo</span>
           <span>
-          Greetings! I'm Innocent Udo, a results-driven Software Engineer <br />with an 
-          unwavering passion for crafting efficient and scalable <br />applications. 
-          My expertise lies in Java, SpringBoot, Hibernate, <br />MySQL, PostgreSQL, 
-          and REST API development. I thrive in <br />Agile environments, leveraging teamwork, 
-          effective <br />communication, and leadership to deliver exceptional solutions.
+            Experienced Software Engineer with expertise in Java, Spring Boot,{" "}
+            <br />
+            and Microservices, delivering secure and scalable solutions in
+            Fintech and Banking.
+            <br />
+            Skilled in optimizing backend systems, enhancing efficiency, and
+            <br />
+            driving innovation. Passionate about leveraging technology to
+            achieve business success.
+            <br />
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -42,28 +47,38 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-        <a href="https://github.com/Innocentsax"
+          <a
+            href="https://github.com/Innocentsax"
             target="_blank"
             rel="InnocentUdo"
           >
-          <img src={Github} alt="" /></a>
-          <a href="https://www.linkedin.com/in/udo-innocent-charles/"
+            <img src={Github} alt="" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/udo-innocent-charles/"
             target="_blank"
             rel="InnocentUdo"
           >
-          <img src={LinkedIn} alt="" /></a>
-          <a href="https://instagram.com/saxinnocent?igshid=NGVhN2U2NjQ0Yg=="
+            <img src={LinkedIn} alt="" />
+          </a>
+          <a
+            href="https://instagram.com/saxinnocent?igshid=NGVhN2U2NjQ0Yg=="
             target="_blank"
             rel="InnocentUdo"
           >
-          <img src={Instagram} alt="" /></a>
+            <img src={Instagram} alt="" />
+          </a>
         </div>
       </div>
       {/* right image side */}
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src={boy} alt="" style={{ width: "50%", borderRadius: "50%", overflow: "hidden" }}/>
+        <img
+          src={boy}
+          alt=""
+          style={{ width: "50%", borderRadius: "50%", overflow: "hidden" }}
+        />
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}
